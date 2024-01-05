@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Segregate]
+@="Segregate Files"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Segregate\command]
+@="PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& { Set-Location '%V'; .\\SegregateFiles.ps1 }\""
+
+
+
+
+

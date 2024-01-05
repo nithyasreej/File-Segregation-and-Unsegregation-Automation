@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Unsegregate]
+@="Unsegregate Files"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Unsegregate\command]
+@="PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& { Set-Location '%V'; .\\UnsegregateFiles.ps1 }\""
+
+
